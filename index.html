@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Wedding Sony & Widi</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-cover bg-center bg-fixed text-gray-800" style="background-image: url('https://images.unsplash.com/photo-1529753259211-73eea3f92be5?auto=format&fit=crop&w=1350&q=80');">
+
+  <!-- Layer blur -->
+  <div class="backdrop-blur-sm bg-white/70 min-h-screen">
+    <!-- HERO -->
+    <section 
+            class="h-screen flex flex-col justify-start items-start text-left px-16 bg-cover bg-center bg-no-repeat"
+            class="" style="background-image: url('/img/fotoawal.JPG');" background-position: 40% center;>
+            <h1 class="text-7xl md:text-8xl font-script font-extrabold text-amber-700 drop-shadow-sm mb-2 mt-20 animate__animated animate__fadeInDown">
+             Sony
+            </h1>
+            <h1 class="text-7xl md:text-9xl font-script font-extrabold text-amber-700 drop-shadow-sm animate__animated animate__fadeInUp animate__delay-1s">
+            & Widi
+            </h1>
+    </section>
+
+
+    <!-- link animasi text -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+
+
+    <!-- Import font Playfair Display -->
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+
+    <style>
+        .font-script {
+          font-family: 'Great Vibes', cursive;
+        }
+      </style>
+
+    <!-- DETAIL ACARA -->
+    <section 
+        class="py-16 px-6 text-center bg-cover bg-center bg-no-repeat text-white relative"
+        style="background-image: url('/img/fotokedua.jpeg');"
+        >
+        <!-- Overlay hitam transparan full -->
+        <div class="absolute inset-0 bg-black bg-opacity-50"></div>
+
+        <!-- Konten tetap di atas overlay -->
+        <div class="relative z-10">
+            <h2 class="text-3xl font-semibold mb-4 text-amber-400"></h2>
+            <p class="mb-4 text-5xl italic font-playfair text-amber-600 animate-wiggle">
+                We invite you with pleasure.
+              </p>
+              
+            <p class="text-lg mb-1">🕊️ Akad: <strong>09.00 WIB</strong></p>
+            <p class="text-lg mb-1"> Resepsi: <strong>11.00 s/d 17:00 WIB</strong></p>
+            <p class="text-lg mb-1"> Pada Hari: <strong>21 JUNI 2025</strong></p>
+            <p class="text-lg mb-3">📍 Lokasi: Gedung Serba Guna Sri Mujinab</p>
+            <a 
+  href="https://www.google.com/search?q=GFC4%2B29R%2C+Suka+Mulia%2C+Kec.+Sail%2C+Kota+Pekanbaru%2C+Riau+28156&oq=GFC4%2B29R%2C+Suka+Mulia%2C+Kec.+Sail%2C+Kota+Pekanbaru%2C+Riau+28156&gs_lcrp=EgZjaHJvbWUqBggAEEUYOzIGCAAQRRg7MgcIARAAGO8FMgcIAhAAGO8FMgcIAxAAGO8FMgcIBBAAGO8FMgcIBRAAGO8F0gEIMTMzMmowajeoAgiwAgHxBfwKuSjOT64Z&sourceid=chrome&ie=UTF-8" 
+  target="_blank"
+  class="inline-block mt-4 px-6 py-2 bg-amber-500 text-white font-semibold rounded-full shadow-lg hover:bg-amber-600 transition duration-300"
+>
+   Lihat di Google Maps
+</a>
+        </div>
+</section>
+
+<style>
+    @keyframes wiggleText {
+      0%, 100% { transform: translateX(0); }
+      50% { transform: translateX(4px); }
+    }
+  
+    .animate-wiggle {
+      animation: wiggleText 1s ease-in-out infinite;
+    }
+  </style>
+
+<!-- AOS CSS -->
+<link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet" />
+<!-- AOS JS -->
+<script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+<script>
+  AOS.init({
+    duration: 800, // durasi animasi
+    once: false,   // true = hanya animasi sekali
+  });
+</script>
+    <!-- GALERI -->
+    <section class="py-16 px-6 bg-amber-50/50">
+        <h2 class="text-3xl font-semibold mb-8 text-amber-600 text-center">Gallery</h2>
+        <div class="flex flex-wrap justify-center gap-6">
+          <img src="/img/F8.JPG" alt="Foto 1" class="w-72 rounded-xl shadow-lg hover:scale-105 transition" data-aos="fade-right" data-aos-delay="0" />
+          <img src="/img/F9.JPG" alt="Foto 2" class="w-72 rounded-xl shadow-lg hover:scale-105 transition" data-aos="fade-left" data-aos-delay="100" />
+          <img src="/img/f3.jpg" alt="Foto 3" class="w-72 rounded-xl shadow-lg hover:scale-105 transition" data-aos="fade-right" data-aos-delay="200" />
+          <img src="/img/f4.jpg" alt="Foto 4" class="w-72 rounded-xl shadow-lg hover:scale-105 transition" data-aos="fade-left" data-aos-delay="300" />
+          <img src="/img/f5.jpg" alt="Foto 5" class="w-72 rounded-xl shadow-lg hover:scale-105 transition" data-aos="fade-right" data-aos-delay="400" />
+          <img src="/img/f6.jpg" alt="Foto 6" class="w-72 rounded-xl shadow-lg hover:scale-105 transition" data-aos="fade-left" data-aos-delay="500" />
+        </div>
+      </section>
+
+    <!-- UCAPAN -->
+    <!-- <section class="py-16 px-6 text-center">
+      <h2 class="text-3xl font-semibold mb-6 text-amber-600">Kirim Ucapan</h2>
+      <input type="text" placeholder="Nama Anda" class="block mx-auto w-full max-w-md p-3 mb-3 border rounded-md shadow-sm" />
+      <textarea placeholder="Ucapan untuk mempelai..." class="block mx-auto w-full max-w-md p-3 mb-3 border rounded-md shadow-sm"></textarea>
+      <button class="bg-amber-600 text-white px-6 py-2 rounded-md hover:bg-amber-700 transition">Kirim</button>
+    </section> -->
+
+    <!-- FOOTER -->
+    <footer class="bg-white/80 py-6 text-center text-sm text-gray-500 border-t border-amber-100">
+        <p class="italic font-playfair">
+          Merupakan suatu kehormatan dan kebahagiaan bagi kami apabila Bapak/Ibu/Saudara/i berkenan hadir dan memberikan doa restu pada hari bahagia kami.
+        </p>
+      </footer>
+
+  </div>
+</body>
+</html>
